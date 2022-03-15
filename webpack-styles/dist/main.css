@@ -1,0 +1,33 @@
+/*!***************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./src/style.scss ***!
+  \***************************************************************************************************************************************************/
+:root {
+  --mainBg: salmon;
+}
+
+body {
+  background-color: salmon;
+  background-color: var(--mainBg);
+  color: moccasin;
+}
+
+.container {
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: -webkit-gradient(linear, left bottom, left top, from(black), to(white));
+  background: linear-gradient(to top, black, white);
+}
+.container h1 {
+  font-size: 68px;
+  text-align: center;
+}
+/*!*************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./src/woof.css ***!
+  \*************************************************************************************************************************************************/
+p {
+  font-size: 18px;
+}
+
+/*# sourceMappingURL=main.css.map*/
